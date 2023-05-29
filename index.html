@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/main.css" />
+      <link rel="icon" type="image/x-icon" href="./assets/wzee.png" />
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <title>w z e e » Frontend Developer</title>
+   </head>
+   <body>
+      <a class="nav-logo-mobile" href="#" style="z-index: 1"
+         >w <span>z e e</span></a
+      >
+
+      <header class="nav-mobile">
+         <input
+            id="page-nav-toggle"
+            class="main-navigation-toggle"
+            type="checkbox"
+         />
+         <label for="page-nav-toggle">
+            <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+               <g class="icon-group">
+                  <g class="icon--menu">
+                     <path d="M 6 0 L 54 0" />
+                     <path d="M 6 15 L 54 15" />
+                     <path d="M 6 30 L 54 30" />
+                  </g>
+                  <g class="icon--close">
+                     <path d="M 15 0 L 45 30" />
+                     <path d="M 15 30 L 45 0" />
+                  </g>
+               </g>
+            </svg>
+         </label>
+
+         <nav class="main-navigation">
+            <a class="nav-logo-mobile" id="open-phased" href="#">w z e e</a>
+            <ul>
+               <li class="nav-links"><a href="#">Home</a></li>
+               <li class="nav-links"><a href="#services">Services</a></li>
+               <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
+               <li class="nav-links"><a href="#contact">Get in Touch</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <header class="nav-desktop">
+         <a href="#" class="nav-logo">w <span>z e e</span></a>
+
+         <ul>
+            <li class="nav-links"><a href="#">Home</a></li>
+            <li class="nav-links"><a href="#services">Services</a></li>
+            <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-links">
+               <a href="#contact" class="button primary-button">Get in Touch</a>
+            </li>
+         </ul>
+      </header>
+
+      <!-- Hero Section -->
+      <div class="gradient-bg">
+         <section class="hero container reveal-hero">
+            <div class="hero-left">
+               <h1 class="hero-header">
+                  <span class="hero-header--underline">Empower</span> Your
+                  Business with a Website that <b>Attracts</b> and
+                  <b>Converts</b><span class="hero-header--dot">.</span>
+               </h1>
+
+               <p class="hero-desc">
+                  Unleash the Potential of Digital Presence to Drive Customer
+                  Growth.
+               </p>
+
+               <div class="hero-buttons">
+                  <a href="#contact" class="button primary-button"
+                     >Get in Touch</a
+                  >
+                  <a href="#portfolio" class="secondary-button"
+                     >Explore My Work
+                     <img src="./assets/hero/Arrow.svg" alt="Click to Explore"
+                  /></a>
+               </div>
+            </div>
+
+            <lottie-player
+               src="https://assets5.lottiefiles.com/packages/lf20_uzvwjpkq.json"
+               background="transparent"
+               speed="0.25"
+               loop
+               autoplay
+               class="hero-img"
+            ></lottie-player>
+
+            <img
+               src="./assets/hero/Scroll Down.svg"
+               alt="Scroll Down"
+               class="scroll-down"
+            />
+         </section>
+      </div>
+
+      <section class="services container reveal" id="services">
+         <h2 class="services-header">
+            Customer-Centered Services<span>.</span>
+         </h2>
+
+         <div class="services-cards">
+            <h1 class="services-bgtext">EMPOWER<span>.</span></h1>
+
+            <div class="services-card">
+               <img
+                  src="./assets/services/responsive-icon.svg"
+                  alt="Responsive Web Design"
+                  class="services-card--icon"
+               />
+
+               <h3 class="services-card--title">Maximized Accessibility</h3>
+               <p class="services-card--desc">
+                  Create a seamless user experience with responsive design that
+                  adapts to different devices, ensuring your website looks
+                  stunning on desktops, tablets, and smartphones.
+               </p>
+            </div>
+
+            <div class="services-card">
+               <img
+                  src="./assets/services/opt-icon.svg"
+                  alt="Responsive Web Design"
+                  class="services-card--icon"
+               />
+
+               <h3 class="services-card--title">Increased Conversion Rates</h3>
+               <p class="services-card--desc">
+                  Optimize your website's performance and design to drive higher
+                  conversion rates and boost customer acquisition.
+               </p>
+            </div>
+
+            <div class="services-card">
+               <img
+                  src="./assets/services/ui-icon.svg"
+                  alt="Responsive Web Design"
+                  class="services-card--icon"
+               />
+
+               <h3 class="services-card--title">Brand Identity Visuals</h3>
+               <p class="services-card--desc">
+                  Elevate your brand's online presence with visually stunning
+                  designs and captivating visuals that leave a lasting
+                  impression on your target audience.
+               </p>
+            </div>
+
+            <div class="services-card">
+               <img
+                  src="./assets/services/ux-icon.svg"
+                  alt="Responsive Web Design"
+                  class="services-card--icon"
+               />
+
+               <h3 class="services-card--title">Enhanced User Experience</h3>
+               <p class="services-card--desc">
+                  Deliver a seamless and intuitive browsing experience with a
+                  user-centric design that keeps visitors engaged and satisfied.
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <section class="portfolio container reveal" id="portfolio">
+         <h2 class="portfolio-header">Check Out My Portfolio<span>.</span></h2>
+
+         <div class="portfolio-websites--container">
+            <div class="portfolio-websites">
+               <a
+                  href="https://wzee1.github.io/home"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img src="./assets/portfolio/home.svg" alt="Property Site" />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/houseoflittlesouls"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/houseoflittlesouls.png"
+                     alt="Animal Sanctuary Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/learner-web"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/learner.svg"
+                     alt="Web Learner Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/bedim-christmas"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/christmas.png"
+                     alt="Christmas Gifts Site"
+                  />
+               </a>
+            </div>
+
+            <div class="portfolio-websites">
+               <a
+                  href="https://wzee1.github.io/home"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img src="./assets/portfolio/home.svg" alt="Property Site" />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/houseoflittlesouls"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/houseoflittlesouls.png"
+                     alt="Animal Sanctuary Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/learner-web"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/learner.svg"
+                     alt="Web Learner Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/bedim-christmas"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/christmas.png"
+                     alt="Christmas Gifts Site"
+                  />
+               </a>
+            </div>
+
+            <div class="portfolio-websites">
+               <a
+                  href="https://wzee1.github.io/home"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img src="./assets/portfolio/home.svg" alt="Property Site" />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/houseoflittlesouls"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/houseoflittlesouls.png"
+                     alt="Animal Sanctuary Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/learner-web"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/learner.svg"
+                     alt="Web Learner Site"
+                  />
+               </a>
+
+               <a
+                  href="https://wzee1.github.io/bedim-christmas"
+                  target="_blank"
+                  class="portfolio-website"
+               >
+                  <img
+                     src="./assets/portfolio/christmas.png"
+                     alt="Christmas Gifts Site"
+                  />
+               </a>
+            </div>
+         </div>
+
+         <a
+            href="https://github.com/wzee"
+            class="button primary-button portfolio-button"
+            target="_blank"
+         >
+            Check All
+         </a>
+      </section>
+
+      <!-- Contact Section -->
+      <div class="gradient-bg-flipped">
+         <section class="contact container reveal" id="contact">
+            <h2 class="contact-header">Let's Connect<span>.</span></h2>
+
+            <form action="" class="contact-form">
+               <div class="contact-form--right">
+                  <div class="contact-form--name">
+                     <label for="name">What's your name?</label>
+                     <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="John Smith"
+                     />
+                  </div>
+
+                  <div class="contact-form--email">
+                     <label for="email">What's your email address?</label>
+                     <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="johnsmith@gmail.com"
+                     />
+                  </div>
+               </div>
+
+               <div class="contact-form--right">
+                  <div class="contact-form--message">
+                     <label for="message"
+                        >Please enter your message here:</label
+                     >
+                     <textarea></textarea>
+                  </div>
+               </div>
+
+               <input
+                  type="submit"
+                  value="Submit"
+                  class="button primary-button"
+                  style="color: white"
+               />
+
+               <lottie-player
+                  src="https://lottie.host/b38078af-22ae-4db1-8236-49ee06cd1538/o3HYG2Stox.json"
+                  background="transparent"
+                  speed="0.7"
+                  loop
+                  autoplay
+               ></lottie-player>
+            </form>
+         </section>
+      </div>
+
+      <footer>
+         <div class="container">
+            <div class="footer-icons">
+               <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./assets/footer/facebook.svg" alt="Facebook Icon" />
+               </a>
+
+               <a
+                  href="https://www.instagram.com/"
+                  class="footer-icon--small"
+                  target="_blank"
+               >
+                  <img
+                     src="./assets/footer/instagram.svg"
+                     alt="Facebook Icon"
+                  />
+               </a>
+
+               <a href="https://www.github.com/wzee" target="_blank">
+                  <img src="./assets/footer/github.svg" alt="Facebook Icon" />
+               </a>
+            </div>
+
+            <p class="footer-desc">
+               © 2023 Zoltán Farkas<br />
+               All Rights Reserved.<br />
+               <a
+                  href="https://www.hypestagency.com/"
+                  target="_blank"
+                  style="font-weight: 600"
+                  >Hypest Agency</a
+               >
+            </p>
+         </div>
+      </footer>
+
+      <script src="./js/main.js"></script>
+   </body>
+</html>
