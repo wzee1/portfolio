@@ -36,7 +36,7 @@ function heroStyleChange() {
 }
 
 window.addEventListener("load", function() {
-   setTimeout(heroStyleChange, 2000);
+   setTimeout(heroStyleChange, 1970);
 })
 
 // For sections
