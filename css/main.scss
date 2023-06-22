@@ -255,7 +255,7 @@ header.nav-desktop {
 
 section.hero {
    opacity: 0;
-   animation: reveal 2s ease .2s;
+   animation: reveal 2s ease;
 }
 
 @keyframes reveal {

@@ -32,11 +32,11 @@ const heroSection = document.querySelector(".reveal-hero")
 
 function heroStyleChange() {
    heroSection.style.opacity = "1"
-   heroSection.style.animation = "unset"
+   heroSection.style.animationPlayState = "paused";
 }
 
 window.addEventListener("load", function() {
-   setTimeout(heroStyleChange, 1970);
+   setTimeout(heroStyleChange, 1500);
 })
 
 // For sections
@@ -47,10 +47,10 @@ window.addEventListener("scroll", () => {
       var windowHeight = window.innerHeight;
       var revealTop = reveals[i].getBoundingClientRect().top;
       var revealPoint = 150;
-      
+
       if (revealTop < windowHeight - revealPoint) {
          reveals[i].classList.add("active");
-      } // else { reveals[i].classList.remove("active"); }
+      }
    }
 });
 
