@@ -1,6 +1,12 @@
 import React from "react"
 
 export default function NavbarMobile() {
+
+   const navToggle = document.getElementById("page-nav-toggle");
+   function closeMenu() {
+      navToggle.checked = navToggle.checked ? false : true
+   }
+
    return (
       <>
          <a className="nav-logo-mobile" href="#">
@@ -30,12 +36,20 @@ export default function NavbarMobile() {
             </label>
 
             <nav className="main-navigation">
-               <a className="nav-logo-mobile" id="open-phased" href="#">w z e e</a>
+               <a className="nav-logo-mobile" id="open-phased" href="#" onClick={closeMenu}>w z e e</a>
                <ul>
-                  <li className="nav-links"><a href="#">Home</a></li>
-                  <li className="nav-links"><a href="#services">Services</a></li>
-                  <li className="nav-links"><a href="#portfolio">Portfolio</a></li>
-                  <li className="nav-links"><a href="#contact">Get in Touch</a></li>
+                  <li className="nav-links" onClick={closeMenu}>
+                     <a href="#">Home</a>
+                  </li>
+                  <li className="nav-links" onClick={closeMenu}>
+                     <a href="#services">Services</a>
+                  </li>
+                  <li className="nav-links" onClick={closeMenu}>
+                     <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li className="nav-links" onClick={closeMenu}>
+                     <a href="#contact">Get in Touch</a>
+                  </li>
                </ul>
             </nav>
          </header>
