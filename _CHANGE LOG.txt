@@ -25,7 +25,10 @@ Fixed:
 - First time hero animation glitches
 
 
-Release 2.0 - 2023. 07. 02. 21:20
+Release 2.0 - 2023. 07. 02. 21:21
 
 Changes:
 - Converted the website from HTML/SCSS/JS to ReactJS with SCCS.
+
+
+Bug Fix 2.1 - 2023. 07. 02. 21:27
