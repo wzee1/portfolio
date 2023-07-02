@@ -1,10 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 
 export default function NavbarMobile() {
-
-   const navToggle = document.getElementById("page-nav-toggle");
+   
    function closeMenu() {
-      navToggle.checked = navToggle.checked ? false : true
+      const navToggle = document.getElementById("page-nav-toggle")
+      navToggle.checked = !navToggle.checked
    }
 
    return (

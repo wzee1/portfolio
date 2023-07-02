@@ -44,3 +44,6 @@ Bug Fix 2.4 - 2023. 07. 02. 22:55
 
 Fixed:
 - Mobile navigation
+
+
+Bug Fix 2.4.1 - 2023. 07. 02. 23:16
