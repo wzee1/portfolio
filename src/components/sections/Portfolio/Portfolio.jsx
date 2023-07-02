@@ -13,7 +13,7 @@ export default function Portfolio() {
             <PortfolioWebsites />
          </div>
 
-         <PrimaryButton href="https://github.com/wzee" text="Check All" />
+         <PrimaryButton href="https://github.com/wzee" text="Check All" target="_blank" />
       </section>
    )
 }

@@ -5,7 +5,7 @@ export default function PrimaryButton(props) {
       <a
          href={props.href}
          className="button primary-button portfolio-button"
-         target="_blank"
+         target={props.target}
       >
          {props.text}
       </a>
