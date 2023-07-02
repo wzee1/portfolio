@@ -6,7 +6,7 @@ export default function Form() {
          <div className="container">
             <div className="footer-icons">
                <a href="https://www.facebook.com/" target="_blank">
-                  <img src="src/assets/footer/facebook.svg" alt="Facebook Icon" />
+                  <img src="./src/assets/footer/facebook.svg" alt="Facebook Icon" />
                </a>
 
                <a
@@ -15,13 +15,13 @@ export default function Form() {
                   target="_blank"
                >
                   <img
-                     src="src/assets/footer/instagram.svg"
+                     src="./src/assets/footer/instagram.svg"
                      alt="Facebook Icon"
                   />
                </a>
 
                <a href="https://www.github.com/wzee" target="_blank">
-                  <img src="src/assets/footer/github.svg" alt="Facebook Icon" />
+                  <img src="./src/assets/footer/github.svg" alt="Facebook Icon" />
                </a>
             </div>
 
