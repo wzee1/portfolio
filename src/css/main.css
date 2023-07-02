@@ -195,6 +195,7 @@ header.nav-desktop {
   font-size: var(--font-size-h4);
   background-color: var(--color-primary);
   transition: background-color 0.2s;
+  color: white;
 }
 .primary-button:hover {
   background-color: var(--color-secondary);
@@ -256,6 +257,7 @@ section.hero {
   position: absolute;
   top: calc(1.2rem - 0.4vw);
   left: var(--nav-logo-mobile-padding);
+  z-index: 1;
   font-size: calc(1.75rem + 1vw);
   font-weight: bold;
 }

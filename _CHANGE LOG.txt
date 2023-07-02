@@ -1,0 +1,31 @@
+Release 1.0 - 2023. 05. 30. 0:25
+
+Works on:
+- Mobile Phones ✔️
+- Tablets ✔️
+- Desktop (PC/Laptop) ✔️
+
+Known issues:
+- Font loading issue (not sure)
+- First time hero animation glitches
+
+
+Bug Fix 1.1 - 2023. 05. 30. 14:58
+
+Fixed:
+- First time hero animation glitches
+
+Known issues:
+- Font loading issue (not sure)
+
+
+Bug Fix 1.2 - 2023. 06. 22. 22:57
+
+Fixed:
+- First time hero animation glitches
+
+
+Release 2.0 - 2023. 07. 02. 21:20
+
+Changes:
+- Converted the website from HTML/SCSS/JS to ReactJS with SCCS.
