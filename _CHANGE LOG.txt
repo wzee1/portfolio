@@ -31,4 +31,5 @@ Changes:
 - Converted the website from HTML/SCSS/JS to ReactJS with SCCS.
 
 
-Bug Fix 2.1 - 2023. 07. 02. 21:27
+Deploy 2.1 - 2023. 07. 02. 21:27
+Deploy 2.2 - 2023. 07. 02. 21:35
