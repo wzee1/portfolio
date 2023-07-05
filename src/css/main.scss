@@ -720,6 +720,7 @@ section.portfolio {
          .portfolio-website {
             img {
                min-width: 10rem;
+               height: auto;
             }
          }
       }
@@ -890,11 +891,17 @@ footer {
          .hero-buttons {
             flex-direction: column;
             width: fit-content;
+
+            .secondary-button img {
+               width: 1.5rem;
+               height: auto;
+            }
          }
       }
 
       .hero-img {
          width: 13rem;
+         height: auto;
       }
    }
 
@@ -903,6 +910,11 @@ footer {
          .services-card {
             width: 15rem;
             text-align: center;
+
+            img {
+               width: 5rem;
+               height: auto;
+            }
 
             .services-card--desc {
                text-align: center;

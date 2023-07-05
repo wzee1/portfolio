@@ -1,7 +1,7 @@
 import home from "../../../assets/portfolio/home.svg"
-import sanctuary from "../../../assets/portfolio/houseoflittlesouls.png"
+import sanctuary from "../../../assets/portfolio/houseoflittlesouls.webp"
 import learner from "../../../assets/portfolio/learner.svg"
-import christmas from "../../../assets/portfolio/christmas.png"
+import christmas from "../../../assets/portfolio/christmas.webp"
 
 
 export default [

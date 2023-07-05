@@ -34,7 +34,7 @@ export default function Form() {
                      <label htmlFor="message"
                         >Please enter your message here:</label
                      >
-                     <textarea></textarea>
+                     <textarea id="message"></textarea>
                   </div>
                </div>
 

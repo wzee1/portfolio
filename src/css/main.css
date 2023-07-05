@@ -635,6 +635,7 @@ section.portfolio .portfolio-websites--container .portfolio-websites {
 }
 section.portfolio .portfolio-websites--container .portfolio-websites .portfolio-website img {
   min-width: 10rem;
+  height: auto;
 }
 @keyframes slide {
   from {
@@ -763,12 +764,21 @@ footer .container .footer-desc {
     width: -moz-fit-content;
     width: fit-content;
   }
+  section.hero .hero-left .hero-buttons .secondary-button img {
+    width: 1.5rem;
+    height: auto;
+  }
   section.hero .hero-img {
     width: 13rem;
+    height: auto;
   }
   section.services .services-cards .services-card {
     width: 15rem;
     text-align: center;
+  }
+  section.services .services-cards .services-card img {
+    width: 5rem;
+    height: auto;
   }
   section.services .services-cards .services-card .services-card--desc {
     text-align: center;
