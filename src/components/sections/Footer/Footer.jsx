@@ -26,7 +26,7 @@ export default function Form() {
                   />
                </a>
 
-               <a href="https://www.github.com/wzee" target="_blank">
+               <a href="https://www.github.com/wzee1" target="_blank">
                   <img
                      src={github}
                      alt="Social Media Icon"
